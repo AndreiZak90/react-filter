@@ -1,0 +1,35 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.btn_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background: #ddbeac;
+  border: 1px solid #ddbeac;
+  color: black;
+  cursor: pointer;
+}
+
+img {
+  margin: 10px;
+}
+
+.btn:hover {
+  background: #fed301;
+  border: 1px solid #bac2fe;
+}
+
+.active {
+  background: #bac2fe;
+  border: 1px solid #bac2fe;
+}
